@@ -1,16 +1,43 @@
-# React + Vite
+# EZTIME - Employee Time Management POC ⏱️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🔗 [לחץ כאן לצפייה במערכת החיה (Live Demo)](https://eztime-poc.vercel.app)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 אודות הפרויקט
+מערכת הוכחת היתכנות (POC) שפותחה כחלק ממטלת בית עבור חברת "אחזקות א'". המערכת מבצעת אוטומציה של חוקי עבודה מורכבים (מדרגות שכר, משמרות לילה, חוסרים) ומציגה אותם בממשק משתמש מודרני ודרך API ייעודי.
 
-## React Compiler
+## 🚀 תכונות מרכזיות (Key Features)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **עיבוד נתונים חכם:** חישוב אוטומטי של מדרגות שכר (100%, 125%, 150%) בהתאם לשעות עבודה יומיות.
+- **ניהול משמרות לילה:** זיהוי אוטומטי של משמרות לילה (22:00-06:00) ועדכון תקן השעות ל-7 שעות בהתאם לחוק הישראלי.
+- **ניתוח חוסרים:** הצגת פערים בזמן אמת בין שעות ביצוע לתקן יומי נדרש.
+- **API Backend:** חשיפת נתוני הניתוח בפורמט JSON עבור אפליקציות צד-שלישי (בונוס).
 
-## Expanding the ESLint configuration
+## 🛠️ טכנולוגיות (Tech Stack)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- **React.js & Vite** | **Tailwind CSS** | **Lucide-React**
+
+### Backend (Bonus Task)
+- **Node.js & Express** | **CORS**
+
+### Deployment & DevOps
+- **Vercel** (Live Hosting) | **Git & GitHub**
+
+
+
+## 💻 הרצה מקומית (Installation & Setup)
+
+1. **שכפול המאגר:**
+   ```bash
+   git clone [https://github.com/BadashIdo/EZtime-poc.git](https://github.com/BadashIdo/EZtime-poc.git)
+   cd eztime-app
+
+   2. **התקנת תלויות:**
+   npm install
+   3. **הרצת הFRONT:**
+   npm run dev
+   4. **הרצת ה-API Server (Backend):**
+   node server.js
+   
