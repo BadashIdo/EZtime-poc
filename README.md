@@ -34,10 +34,10 @@
    git clone [https://github.com/BadashIdo/EZtime-poc.git](https://github.com/BadashIdo/EZtime-poc.git)
    cd eztime-app
 
-   2. **התקנת תלויות:**
+ 2. **התקנת תלויות:**
    npm install
-   3. **הרצת הFRONT:**
+ 3. **הרצת הFRONT:**
    npm run dev
-   4. **הרצת ה-API Server (Backend):**
+ 4. **הרצת ה-API Server (Backend):**
    node server.js
    
